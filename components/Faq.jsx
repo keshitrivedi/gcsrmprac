@@ -43,9 +43,7 @@ const Faq = () => {
                 <span className="text-sm md:text-base text-left">
                   {faq.question}
                 </span>
-                <img 
-                    src ="public/plus_ka_photo.svg" alt="Toggle FAQ" className="h-[10px] md:h-[12px] transition-transform ease-in duration-300 ${visibleAnswerIndex === index? 'rotate-50' : ''}'"
-                />
+                
               </button>
               {open && (
                 <div
