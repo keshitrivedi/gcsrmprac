@@ -10,12 +10,12 @@ export default function Gallery () {
     return (
     <>
         <div className="flex flex-col bg-black text-white items-center">
-            <div className="font-black text-9xl mt-40">Glimpses</div>
-            <div>
+            <div className="font-black lg:text-9xl text-5xl mt-40">Glimpses</div>
+            <div className="mt-15">
                 <InfiniteMovingCards
                     items={images}
                     direction="right"
-                    speed="normal"
+                    speed="slow"
                 />
             </div>
         </div>
