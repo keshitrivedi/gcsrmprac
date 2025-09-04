@@ -3,7 +3,7 @@ import React, {useState} from "react";
 export default function About () {
     return (
     <>
-        <div className="flex flex-row-reverse bg-indigo-950 align-middle justify-center items-center">
+        <div className="flex flex-row-reverse bg-black align-middle justify-center items-center">
             <div className="flex flex-col-reverse text-white mr-10 text-right flex-1">
                 <div className="font-bold text-2xl">Code Your Passion, Build Your Legacy.</div>
                 <div className="text-9xl font-black">About</div>
