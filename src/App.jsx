@@ -1,5 +1,4 @@
 import '../styles/globals.css'
-import Navbar from '../components/shared/Navbar/Navbar.jsx'
 import Hero from '../components/Hero.jsx'
 import About from '../components/About.jsx'
 import Gallery from '../components/Gallery.jsx'
@@ -13,7 +12,6 @@ import Faq from '../components/Faq.jsx'
 function App() {
   return (
     <>
-    <Navbar />
     <Hero />
     <About />
     <Gallery />
