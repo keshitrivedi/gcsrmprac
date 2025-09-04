@@ -10,7 +10,7 @@ const Faq = () => {
 
   return (
     <div className="bg-black w-full mb-5 pb-5 text-white">
-      <div className="flex justify-center text-[24px] md:text-[50px] font-bold mb-8 p-10">
+      <div id="faqheader" className="flex justify-center text-[24px] md:text-[50px] font-bold mb-8 p-10">
         FREQUENTLY ASKED QUESTIONS
       </div>
 

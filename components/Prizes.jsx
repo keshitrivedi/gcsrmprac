@@ -1,6 +1,16 @@
 import React from "react";
 
 export default function Prizes () {
+
+    const handleScrollToFaqs = () => {
+		const faqstart = document.querySelector('#faqheader');
+		if (faqstart) {
+			faqstart.scrollIntoView({ behavior: 'smooth' });
+		} else {
+			console.error('Element #faqheader not found in the DOM.');
+		}
+	};
+
     return (
     <>
         <div className="flex flex-col bg-black items-center justify-center align-middle pt-5">
@@ -13,7 +23,7 @@ export default function Prizes () {
                         ₹ 1,80,000
                         Cash Prize of TBA
                     </div>
-                    <a className="font-bold mt-2" href="">KNOW MORE</a>
+                    <div onClick={handleScrollToFaqs} className="cursor-pointer font-bold mt-2">KNOW MORE</div>
                     
                 </div>
                 <div className="flex flex-col flex-1 bg-white text-black items-center justify-between text-center p-10 rounded-lg hover:-translate-y-2 hover:transition-transform">
@@ -23,7 +33,7 @@ export default function Prizes () {
                         ₹ 1,80,000
                         Cash Prize of TBA
                     </div>
-                    <a className="font-bold mt-2" href="">KNOW MORE</a>
+                    <div onClick={handleScrollToFaqs} className="cursor-pointer font-bold mt-2">KNOW MORE</div>
                     
                 </div>
 
@@ -34,7 +44,7 @@ export default function Prizes () {
                         ₹ 1,80,000
                         Cash Prize of TBA
                     </div>
-                    <a className="font-bold mt-2" href="">KNOW MORE</a>
+                    <div onClick={handleScrollToFaqs} className="cursor-pointer font-bold mt-2">KNOW MORE</div>
                     
                 </div>
             </div>
