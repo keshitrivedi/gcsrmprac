@@ -3,6 +3,9 @@ import React, {useState} from "react";
 export default function Hero () {
     return (
     <>
+
+        
+
     <div className="flex flex-row bg-black py-30">
         <div className="flex flex-col flex-1 ml-10">
             <div className="font-black lg:text-9xl text-6xl text-white">Ossome Hacks</div>
@@ -17,6 +20,7 @@ export default function Hero () {
             <img src="prchk.png" alt="" />
         </div>
     </div>
+
     </>
     )
 }
